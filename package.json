@@ -1,0 +1,28 @@
+{
+  "name": "webpack-experiment",
+  "version": "0.1.0",
+  "description": "Test project for webpack. Contains confiig files.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhokshaja/webpackExperiment.git"
+  },
+  "keywords": [
+    "npm",
+    "webpack"
+  ],
+  "author": "Adhokshaja Achar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhokshaja/webpackExperiment/issues"
+  },
+  "homepage": "https://github.com/adhokshaja/webpackExperiment#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.3.0"
+  }
+}
